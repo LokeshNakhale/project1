@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%s;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+    padding: 20px;
+    gap: 5px;
+    /* position fiexd dene ke liye width 100% dena jaruri hai */
+    position: fixed;
+    width: 100%;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 7px 19px;
+   
+}
+#intro{
+    height: 40%;
+    width: 100%;
+    /* background-color: rgb(124, 120, 114); */
+    padding: 40px;
+
+}
+#intro h1{
+    font-size: 120px;
+    line-height: 100px;
+    letter-spacing: 5px;
+}
+#place{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+#place h3, #place h4{
+    font-size: 24px;
+}
+#heroimg{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1719937206109-7f4e933230c8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin-top: 12px;
+    
+}
+/*                 part 2              */
+#about{
+    height: 43%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#about h2{
+    width: 50%;
+    
+    font-size: 65px;
+    /* margin: 20px; */
+    border-right: 2px solid black;
+}
+#about2{
+    width: 48%;
+    height: 100%;
+
+    /* ye karne se justify content space between aadhe me kam karebga */
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+#about2 h3{
+    font-size: 30px;
+}
+#icon{
+   
+    font-size: 30px;
+}
+
+#icon i{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 17px;
+    &&:hover{
+        background-color: white;
+    color: black;
+    }
+}
+
+/*    ____________part   3_________________________   */
+
+#work{
+    width: 100%;
+    height: 53%;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 25px;
+}
+#work1{
+    width: 35%;
+    height: 100%;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    padding-right: 40px;
+   
+}
+#work2{
+    width: 65%;
+    height: 100%;
+    padding: 0px 20px;
+    
+}
+.work2-pt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+
+}
+.work2-pt:nth-child(1){
+   
+    border-bottom: 2px solid black;
+}
+.work2-pt .elem{
+    width: 50%;
+    height: 100%;
+    padding: 0px 20px;
+}
+.work2-pt h4{
+    font-size: 40px;
+}
+.work2-pt .elem:nth-child(1){
+    border-right: 2px solid black;
+}
